@@ -1,0 +1,28 @@
+
+
+.ping
+{
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+    height: 36px;
+    background-color: rgb(0, 34, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+      
+}
+#long {
+    float: left;
+    border: blue;
+}
+a{
+    display: block;
+    padding: 0 28px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover  {
+    background-color: blue;
+}

@@ -1,0 +1,193 @@
+* 	{ 
+		padding:0; 
+		margin:0;
+		font-family: 'Laila', serif; 
+	}
+
+body		{ 
+			background-color: #acdd75;
+   user-select: none; 	
+   margin-bottom: 0px;
+
+		}
+code, blockquote, .crayon-syntax {
+-webkit-user-select: text !important;
+-moz-user-select: text !important;
+-ms-user-select: text !important;
+user-select: text !important;
+}
+
+
+p {
+	color: #434343;
+    word-spacing: .2em;
+    line-height: 1.7;
+    font-size: 18px;
+    text-align: justify;		
+	margin-bottom:15px;
+}
+.open
+{
+    position: absolute;
+    left: 0%;
+}
+.open span{
+
+    position: absolute;
+    color: white;
+    top: 40px;
+    left: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 1px 9px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sidebar{
+    width: 250px;
+    position: absolute;
+    left: -250;
+    top: 0;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+
+}
+.sidebar .title{
+    padding-left: 60px;
+    font-size: 25px;
+    line-height: 60px;
+    color: rgb(69, 128, 184);
+    border-bottom: 2px solid gray;
+
+}
+.sidebar .links li {
+    list-style: none;
+   align-items: center;
+   font-size: 35px;
+    display: block;
+    color: white;
+    width: 78%;
+    line-height: 40px;
+    border-left: px solid transparent;
+    border-bottom: 2px solid gray;
+    cursor: pointer;
+}
+.sidebar .links li:hover {
+    background: rgb(255, 254, 255);
+    border-left: 7px solid cornflowerblue;
+
+}
+
+.sidebar .links li {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 0px;
+}
+
+
+
+.sidebar .links  li:hover a {
+    color: cornflowerblue;
+    letter-spacing: 1.2px;
+
+}
+
+
+
+
+.sidebar.active{
+    left: 0;
+    border-right: 1px solid #3d08fa;
+}
+
+
+
+.ping
+{
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+    height: 36px;
+    background-color: rgb(0, 34, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+      
+}
+#long {
+    float: left;
+    border: blue;
+}
+a{
+    display: block;
+    padding: 0 28px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover  {
+    background-color: blue;
+}
+.sub{
+    display: none;
+}
+a:hover .sub {
+    display: block;
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+a:hover .sub {
+    display: block;
+    margin: 10px;
+}
+
+#center {
+    position: absolute;
+    top: 117px;
+    left: 300px;
+
+    width: 600px;  
+      height: 450px;  
+      border: 5px solid red;  
+      background-color: lightgreen;  
+      object-fit: none;  
+      object-position: center top;  
+      border-radius: 4px;
+    cursor: pointer;
+}
+img {
+	display:block;
+	margin:0 auto;
+	border: 3px solid #EEEEEE;
+}
+
+
+
+h2 {
+    font-size:24px;
+    margin-top:40px;
+	margin-bottom:15px;
+	text-align: center;
+}
+
+h3{
+    font-size:20px;
+    margin-top:30px;
+	margin-bottom:15px;
+	text-align: center;
+}
+
+ul,ol {
+	padding:0;
+	margin: 20px 0 20px 30px;
+	font-size: 18px;
+	line-height: 1.875em;
+	text-align:justify;
+}
